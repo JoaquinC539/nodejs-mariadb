@@ -1,0 +1,34 @@
+{
+  "name": "nodenmariadb",
+  "version": "1.0.0",
+  "description": "NodeJS using Express to connect a simple CRUD to MariaDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaquinC539/nodejs-mariadb.git"
+  },
+  "keywords": [
+    "MariaDB",
+    "NodeJS"
+  ],
+  "author": "JC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoaquinC539/nodejs-mariadb/issues"
+  },
+  "homepage": "https://github.com/JoaquinC539/nodejs-mariadb#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.5"
+  }
+}
