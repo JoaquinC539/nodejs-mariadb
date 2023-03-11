@@ -7,4 +7,3 @@ const DB = require('./config/dbCon');
 const port = Number(process.env.PORT) || 3000;
 const mainApp = new app_1.App(port);
 mainApp.serverCreate(port);
-//Connect to DB
