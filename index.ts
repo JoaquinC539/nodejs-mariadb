@@ -11,7 +11,6 @@ const mainApp:App=new App(port);
 
 mainApp.serverCreate(port);
 
-//Connect to DB
 
 
 
